@@ -52,7 +52,7 @@ export class donjon2 extends Phaser.Scene{
         // this.clavier = this.input.keyboard.addKeys('SPACE');(create)
         // if (this.clavier.SPACE.isDown) {}
 
-    // ajout de tout les calques du niveau
+    // ajout de tout les calques du niveau 
 
     const carteDuNiveau = this.add.tilemap("Map3");
     const tileset = carteDuNiveau.addTilesetImage(
