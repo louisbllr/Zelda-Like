@@ -3,7 +3,6 @@ export class donjon2 extends Phaser.Scene{
 
     constructor(){    
         super("donjon2");
-    
         this.estSolide;        
         this.plateformes;
         this.score =0;
@@ -12,6 +11,7 @@ export class donjon2 extends Phaser.Scene{
         this.player;
         this.perso;
         this.cursors;
+        this.controller = false;
         this.tileset;
         this.playerhp = 100;
         this.gameover =false;
@@ -24,6 +24,9 @@ export class donjon2 extends Phaser.Scene{
         this.enemies = this.enemie;
         this.onCollide = false;
         this.argent=100;
+        this.atck;
+        // this.atck = this.physics.add.staticGroup();
+
         
     }
     preload(){
@@ -44,6 +47,10 @@ export class donjon2 extends Phaser.Scene{
     }
 
     create(){
+// création touche 
+
+        // this.clavier = this.input.keyboard.addKeys('SPACE');(create)
+        // if (this.clavier.SPACE.isDown) {}
 
     // ajout de tout les calques du niveau
 
@@ -143,7 +150,7 @@ export class donjon2 extends Phaser.Scene{
         // repeat: -1
     // });
 
-
+// mise en place du clavier et de la manette
     this.cursors = this.input.keyboard.createCursorKeys();
     this.input.gamepad.once('connected', function (pad) {
         console.log("Manette Connecté");
@@ -251,6 +258,28 @@ export class donjon2 extends Phaser.Scene{
           enemies.setVelocity(0);
         }
       });
+
+
+
+    //Attaque
+// {
+    //   if (this.player_facing == "up") {
+        //   this.atck.create(this.player.x, this.player.y - 32, "up atck");
+    //   }
+    //   else if (this.player_facing == "down") {
+        //   this.atck.create(this.player.x, this.player.y + 32, "atck");
+    //   }
+    //   else if (this.player_facing == "right") {
+        //   this.atck.create(this.player.x + 32, this.player.y, "right_atck");
+    //   }
+    //   else if (this.player_facing == "left") {
+        //   this.atck.create(this.player.x - 32, this.player.y, "left_atck");
+    //   }
+    //   this.player_block = true;
+    //   this.player.setVelocityX(0);
+    //   this.player.setVelocityY(0);
+// 
+// }
 }
 
         //Activation du powerup1 = déstruiction des murs cassable et déblocage du donjon2
@@ -268,12 +297,21 @@ export class donjon2 extends Phaser.Scene{
                 déplacable.setVelocity(-50)
         }
 
+
+        // fonction gain d'argent
+gainargent1(player,collider,coffres){
+    if (this.player,collider,this.coffres)
+    coffres.disableBody,(true, true);
+    argent += 10;
+    coffres.destroy();
+}
     // attaque des monstres et les loots
         
     kill_enemies(enemies) {
         enemies.disableBody(true, true)
         this.lootMob(enemies);
     }
+
     
     Loot(enemies) {
         this.loot = Math.floor(Math.random() * (4 - 1)) + 1;

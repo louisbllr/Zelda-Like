@@ -28,6 +28,8 @@ constructor(){
     this.gainargent = 0;
     this.argent = 100;
     this.onCollide = false;
+    this.atck;
+    // this.atck = this.physics.add.staticGroup();
 }
 
   preload() {
@@ -44,13 +46,18 @@ constructor(){
     this.load.image("powerup1","assets/powerup1.png");
     this.load.image("powerup2","assets/powerup2.png");
 
+
     this.load.image("coffre","assets/coffre.png");
 
-    // this.load.spritesheet('enemie','asset/monstre.png',
-    // { frameWidth: 18, frameHeight: 18 });
+
 }
 
  create(){
+
+    // création touche de jeu
+    // this.clavier = this.input.keyboard.addKeys('SPACE');
+    // (create)
+    // if (this.clavier.SPACE.isDown) {}
 
 
     // ajout de tout les calques du niveau
@@ -446,7 +453,27 @@ constructor(){
 
 
     }
+
 }
+    //Attaque
+    // {
+        // if (this.player_facing == "up") {
+            // this.atck.create(this.player.x, this.player.y - 32, "up atck");
+        // }
+        // else if (this.player_facing == "down") {
+            // this.atck.create(this.player.x, this.player.y + 32, "atck");
+        // }
+        // else if (this.player_facing == "right") {
+            // this.atck.create(this.player.x + 32, this.player.y, "right_atck");
+        // }
+        // else if (this.player_facing == "left") {
+            // this.atck.create(this.player.x - 32, this.player.y, "left_atck");
+        // }
+        // this.player_block = true;
+        // this.player.setVelocityX(0);
+        // this.player.setVelocityY(0);
+//   
+//   }
 }
 
 
