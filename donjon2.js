@@ -300,7 +300,7 @@ export class donjon2 extends Phaser.Scene{
 
         // fonction gain d'argent
 gainargent1(player,collider,coffres){
-    if (this.player,collider,this.coffres)
+    if (this.player,collider,coffres)
     coffres.disableBody,(true, true);
     argent += 10;
     coffres.destroy();

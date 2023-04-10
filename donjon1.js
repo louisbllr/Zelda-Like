@@ -121,8 +121,8 @@ export class donjon1 extends Phaser.Scene{
     // mise en place des potions de soin
 
     this.hp = this.physics.add.group();
-    this.hp.create(624,928,'épée');
-    // this.hp.create(160,480,'épée');
+    // this.hp.create(624,928,'épée');
+    this.hp.create(160,480,'épée');
 
     
     //this.hp.objects.forEach(this.hp);

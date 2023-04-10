@@ -210,8 +210,8 @@ constructor(){
     this.coffres.create(4656,1410,'coffre',this.gainargent1);
     this.coffres.create(3858,2765,'coffre',this.gainargent1);
     // this.coffres.create()
-    // this.add.image(2384,5088,"coffre",this.gainargent1);
-    // this.physics.add.collider(this.player,this.coffre,this.gainargent1,null,this)
+    this.add.image(2384,5088,"coffre",this.gainargent1);
+    //this.physics.add.collider(this.player,this.coffre,this.gainargent1,null,this)
  
 
 
