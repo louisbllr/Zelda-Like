@@ -1,0 +1,118 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "C:/Users/game/Documents/GitHub/GD1B_SIDE_TU/assets/tile_set_final.tsx": {
+            "scaleInDock": 1
+        },
+        "Donjon facile.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 489,
+                "y": 386
+            }
+        },
+        "MAP FINALE.tmx": {
+            "expandedGroupLayers": [
+                17,
+                13
+            ],
+            "scale": 1,
+            "selectedLayer": 13,
+            "viewCenter": {
+                "x": 4386,
+                "y": 2837
+            }
+        },
+        "Tileset.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "donjondebut2.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 341.33333333333326,
+                "y": 570.6666666666665
+            }
+        },
+        "donjonfinale.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 346,
+                "y": 461.33333333333337
+            }
+        },
+        "donjonfinale2.tmx": {
+            "scale": 1,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 753,
+                "y": 580
+            }
+        },
+        "petit.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2080.3030303030305,
+                "y": 1290.909090909091
+            }
+        },
+        "sans titre.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2614,
+                "y": 2044
+            }
+        },
+        "taille finale.tmx": {
+            "expandedGroupLayers": [
+                17
+            ],
+            "scale": 1.5,
+            "selectedLayer": 12,
+            "viewCenter": {
+                "x": 1631.6666666666665,
+                "y": 449.3333333333333
+            }
+        }
+    },
+    "last.exportedFilePath": "E:/zelda",
+    "last.imagePath": "E:/cours/zelda",
+    "map.height": 75,
+    "map.lastUsedExportFilter": "Tous les Fichiers (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 75,
+    "openFiles": [
+    ],
+    "project": "Zelda.tiled-project",
+    "recentFiles": [
+        "Tileset.tsx",
+        "donjondebut2.tmx",
+        "donjonfinale2.tmx",
+        "MAP FINALE.tmx",
+        "donjonfinale.tmx",
+        "Donjon facile.tmx",
+        "taille finale.tmx",
+        "petit.tmx",
+        "sans titre.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
